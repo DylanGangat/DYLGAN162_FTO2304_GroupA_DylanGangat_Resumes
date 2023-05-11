@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-size: 1.125rem;
+  padding: 0 2rem;
+  font-weight: 400;
+  color: #574145;
+}
+
+h1,
+h2 {
+  line-height: 1;
+}
+
+.main-heading,
+.section-title {
+  color: rgb(255, 192, 203);
+}
+
+.main-heading {
+  font-size: 2.425rem;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 2.125rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #2f4858;
+}
