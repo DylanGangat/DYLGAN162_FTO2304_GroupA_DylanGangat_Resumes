@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
 
 /* Reset */
+body, h1, h2, h3, p {
+  margin: 0;
+}
 
 body {
-  margin: 0;
   font-family: "Inter", sans-serif;
   line-height: 1.5;
   font-size: 1.125rem;
@@ -16,6 +18,8 @@ img {
   display: block;
   max-width: 100%;
   object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #05404c;
 }
 
 ul {
@@ -23,6 +27,10 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+ul > * + * {
+  margin-top: 0.25rem;
 }
 
 a {
@@ -75,6 +83,10 @@ section {
   padding: 2rem 0;
 }
 
+section:not(:last-child) {
+  border-bottom: 1px solid #05404c;
+}
+
 .container {
   width: min(70ch, 100% - 4rem);
   margin-inline: auto;
@@ -82,4 +94,12 @@ section {
 
 .text-accent {
   color: #05404c;
+}
+
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+
+.spacer {
+  margin-top: 2rem;
 }
